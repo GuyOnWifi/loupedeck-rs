@@ -5,6 +5,7 @@ edition = "2024"
 description = "A driver for Loupedeck and Razer Stream Controller devices."
 license = "GPL-3.0-or-later"
 keywords = ["driver", "loupedeck", "streamdeck"]
+repository = "https://github.com/GuyOnWifi/loupedeck-rs"
 
 [dependencies]
 serialport = "4.9.0"
