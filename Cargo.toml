@@ -1,0 +1,13 @@
+[package]
+name = "loupedeck-driver"
+version = "0.1.0"
+edition = "2024"
+description = "A driver for Loupedeck and Razer Stream Controller devices."
+license = "GPL-3.0-or-later"
+keywords = ["driver", "loupedeck", "streamdeck"]
+
+[dependencies]
+serialport = "4.9.0"
+
+[lib]
+path = "src/lib.rs"
